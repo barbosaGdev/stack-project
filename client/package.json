@@ -1,0 +1,51 @@
+{
+  "name": "manole-gestor-conteudo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.0.0",
+    "@material-ui/icons": "^1.0.0",
+    "axios": "^0.18.0",
+    "bugsnag-js": "^4.7.3",
+    "bugsnag-react": "^1.1.1",
+    "cookies-js": "^1.2.3",
+    "informed-shared": "git+ssh://git@github.com:ManoleConteudo/Informed-Shared.git#v3/content-styles",
+    "js-file-download": "^0.4.8",
+    "jwt-decode": "^2.2.0",
+    "material-ui": "^0.20.1",
+    "material-ui-chip-input": "1.0.0-beta.5",
+    "material-ui-search-bar": "1.0.0-beta.7",
+    "moment": "^2.22.2",
+    "querystring": "^0.2.0",
+    "react": "^16.3.2",
+    "react-ckeditor-component": "^1.1.0",
+    "react-debounce-render": "^5.0.0",
+    "react-dom": "^16.3.2",
+    "react-media": "^1.8.0",
+    "react-moment": "^0.7.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-select": "^1.2.1",
+    "react-split-pane": "^0.1.77",
+    "react-text-mask": "^5.4.1",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.9.1",
+    "redux-persist-cookie-storage": "^1.0.0",
+    "redux-thunk": "^2.2.0",
+    "sort-by": "^1.2.0",
+    "style-it": "^2.0.0",
+    "typeface-roboto": "^0.0.54"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  }
+}

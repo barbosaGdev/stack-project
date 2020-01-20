@@ -1,0 +1,54 @@
+{
+  "name": "manole-gestor-conteudo-server",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "DEBUG=manole:* nodemon index.js",
+    "db:migrate": "node tasks/db/migrate",
+    "db:new:migration": "node tasks/db/new_migration",
+    "indices:rebuild": "node tasks/indices/rebuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.248.1",
+    "bcrypt": "^2.0.1",
+    "bluebird": "^3.5.1",
+    "bugsnag": "^2.4.3",
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "elasticsearch": "^15.0.0",
+    "epub-gen": "^0.1.0",
+    "escape-string-regexp": "^2.0.0",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "html-to-rtf": "^1.3.2",
+    "informed-shared": "git+ssh://git@github.com:ManoleConteudo/Informed-Shared.git#v3.0.0-beta",
+    "jsonwebtoken": "^8.2.1",
+    "jwt-decode": "^2.2.0",
+    "md5": "^2.2.1",
+    "migrate-mongoose": "^3.2.2",
+    "moment": "^2.22.1",
+    "mongodb": "^3.1.0-beta4",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^5.4.10",
+    "mongoose-elasticsearch-xp": "^5.6.0",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "sanitize-html": "^1.18.2",
+    "uuid": "^3.2.1"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "camelcase": "^5.3.1"
+  }
+}
